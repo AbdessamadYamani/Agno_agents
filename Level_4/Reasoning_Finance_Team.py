@@ -8,8 +8,8 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 from config import API_KEY
 
-from agents.finance_agent import finance_agent
-from agents.web_search_agent import web_agent
+from Level_1.finance_agent import finance_agent
+from Level_1.web_search_agent import web_agent
 api_key=API_KEY
 
 

@@ -13,11 +13,11 @@ if project_root not in sys.path:
 from config import API_KEY
 
 # Import all required agents
-from agents.competitor_analysis_agent import competitor_analysis_agent
-from agents.finance_agent import finance_agent
-from agents.web_search_agent import web_agent
-from agents.media_trend_analysis_agent import agent as media_trend_agent
-from agents.deep_research_agent_exa import agent as deep_research_agent
+from Level_3.competitor_analysis_agent import competitor_analysis_agent
+from Level_1.finance_agent import finance_agent
+from Level_1.web_search_agent import web_agent
+from Level_1.media_trend_analysis_agent import agent as media_trend_agent
+from Level_1.deep_research_agent_exa import agent as deep_research_agent
 
 api_key = API_KEY
 
